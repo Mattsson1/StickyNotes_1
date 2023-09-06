@@ -1,6 +1,15 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Documents",
+    "\\Images",
+    "\\Notes.Api",
+    "\\Notes.Api\\Configuration",
+    "\\Notes.Api\\Controllers",
+    "\\Notes.Client",
+    "\\StickNotes",
+    "\\StyleCop"
   ],
+  "SelectedNode": "\\Notes.Api\\Controllers\\NotesController.cs",
   "PreviewInSolutionExplorer": false
 }
