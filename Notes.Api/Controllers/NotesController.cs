@@ -34,7 +34,6 @@ public class NotesController : ControllerBase
         var user = BasicAuthenticationHandler.GetUserFrom(authorizationHeader);
 
         return _database.Notes
-            return _database.Notes
             .Where(note => note.Author == user.Username)
             .Where(note => string.IsNullOrEmpty(containing) ? true : note.Content.Contains(containing))
             .OrderBy(note => note.Id)
